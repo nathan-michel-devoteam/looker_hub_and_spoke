@@ -2,7 +2,9 @@
 view: a_assortment_weekly_site_sku {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
-  sql_table_name: `arf-looker-poc.ASSORTMENT.A_assortment_weeklySiteSku`
+  sql_table_name:
+  --Query_called_by_hub_and_spoke
+  `arf-looker-poc.ASSORTMENT.A_assortment_weeklySiteSku`
     ;;
   # No primary key is defined for this view. In order to join this view in an Explore,
   # define primary_key: yes on a dimension that has no repeated values.

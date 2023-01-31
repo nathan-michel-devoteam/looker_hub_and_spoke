@@ -2,7 +2,9 @@
 view: repository_ref_product_denormalized {
   # The sql_table_name parameter indicates the underlying database table
   # to be used for all fields in this view.
-  sql_table_name: `arf-looker-poc.WORK.REPOSITORY_Ref_product_denormalized`
+  sql_table_name:
+  --Query_called_by_hub_and_spoke
+  `arf-looker-poc.WORK.REPOSITORY_Ref_product_denormalized`
     ;;
   # No primary key is defined for this view. In order to join this view in an Explore,
   # define primary_key: yes on a dimension that has no repeated values.
