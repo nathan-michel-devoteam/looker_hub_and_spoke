@@ -12,3 +12,4 @@ explore: +a_assortment_weekly_site_sku {
 explore: repository_ref_product_denormalized {
   label: "Ref Produit - Spoke 1"
 }
+#06/02/2022
