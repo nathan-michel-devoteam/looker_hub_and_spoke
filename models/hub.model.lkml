@@ -4,7 +4,7 @@ connection: "bigquery-looker-poc-1"
 # include all the views
 include: "/views/**/*.view"
 
-label: "Test Hub & Spoke - Hub"
+label: "Hub & Spoke - Hub"
 
 explore: a_assortment_weekly_site_sku {
   label: "Assortment Weekly / Ref Produit - Hub"

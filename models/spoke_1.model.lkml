@@ -1,6 +1,6 @@
 include: "hub.model"
 
-label: "Test Hub & Spoke - Spoke 1"
+label: "Hub & Spoke - Spoke 1"
 
 connection: "bigquery-looker-poc-2"
 
