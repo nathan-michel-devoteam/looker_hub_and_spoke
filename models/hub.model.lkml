@@ -7,6 +7,7 @@ include: "/views/**/*.view"
 label: "Hub & Spoke - Hub"
 
 explore: a_assortment_weekly_site_sku {
+  hidden: yes
   label: "Assortment Weekly / Ref Produit - Hub"
   join: repository_ref_product_denormalized {
     type: left_outer
